@@ -32,6 +32,7 @@
   <section class="list-nav pb-2">
     <ul>
       <NavItem name="Regular" path="/cta/regular" />
+      <NavItem name="With signup" path="/cta/with-signup" />
     </ul>
   </section>
 </nav>
