@@ -28,6 +28,12 @@
   ];
 </script>
 
+<h2 class="h2 text-center my-4">
+  <a class="anchor" target="_blank" href="https://github.com/knarkzel/skeletonblocks/blob/master/src/routes/blog/simple/%2Bpage.svelte">
+    Source can be found here  
+  </a>
+</h2>
+
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
   {#each items as item}
     <div class="shadow-md outline outline-2 outline-gray-200">
