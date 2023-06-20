@@ -1,5 +1,5 @@
 <script lang="ts">
-  import NavItem from "./NavItem.svelte";
+  import NavItem from './NavItem.svelte';
 </script>
 
 <nav class="space-y-2">
@@ -7,7 +7,7 @@
 
   <section class="list-nav pb-2">
     <ul>
-      <NavItem name='Regular' path='/blog/regular' />
+      <NavItem name="Regular" path="/blog/regular" />
     </ul>
   </section>
 
@@ -15,7 +15,7 @@
 
   <section class="list-nav pb-2">
     <ul>
-      <NavItem name='Regular' path='/contact/regular' />
+      <NavItem name="Regular" path="/contact/regular" />
     </ul>
   </section>
 
@@ -23,7 +23,15 @@
 
   <section class="list-nav pb-2">
     <ul>
-      <NavItem name='Regular' path='/content/regular' />
+      <NavItem name="Regular" path="/content/regular" />
+    </ul>
+  </section>
+
+  <h3 class="h3">CTA</h3>
+
+  <section class="list-nav pb-2">
+    <ul>
+      <NavItem name="Regular" path="/cta/regular" />
     </ul>
   </section>
 </nav>

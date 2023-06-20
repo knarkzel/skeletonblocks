@@ -32,9 +32,9 @@
     </p>
   </div>
 
-  <div class="mx-auto my-8 grid max-w-screen-lg md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+  <div class="mx-auto my-8 grid max-w-screen-lg gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
     {#each items as item}
-      <div class="pl-4 border-l-2 border-gray-300">
+      <div class="border-l-2 border-gray-300 pl-4">
         <p>{item.title}</p>
         <p class="my-2 text-gray-600">{item.body}</p>
         <a class="anchor no-underline" href="#">

@@ -12,7 +12,7 @@
     <a
       href="https://github.com/knarkzel/skeletonblocks/blob/master/src/routes{path}/+page.svelte"
       target="_blank"
-      >
+    >
       <IconXml />
     </a>
   </div>
