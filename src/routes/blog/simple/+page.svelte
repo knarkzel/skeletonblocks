@@ -9,7 +9,6 @@
       body: 'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
       image: 'https://dummyimage.com/720x400',
       views: '1.2K',
-      url: '/blog/simple',
       comments: 6
     },
     {
@@ -17,7 +16,6 @@
       body: 'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
       image: 'https://dummyimage.com/720x400',
       views: '1.2K',
-      url: '/blog/simple',
       comments: 6
     },
     {
@@ -25,7 +23,6 @@
       body: 'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
       image: 'https://dummyimage.com/720x400',
       views: '1.2K',
-      url: '/blog/simple',
       comments: 6
     }
   ];
@@ -40,7 +37,7 @@
         <p>{item.category}</p>
         <p class="my-2 text-sm leading-relaxed text-gray-600">{item.body}</p>
         <div class="flex justify-between">
-          <a class="anchor no-underline" href={item.url}>
+          <a class="anchor no-underline" href="#">
             Learn More <IconArrowRight class="inline" />
           </a>
           <div>
