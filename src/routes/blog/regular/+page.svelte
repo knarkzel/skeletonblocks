@@ -28,7 +28,7 @@
   ];
 </script>
 
-<section class="grid gap-4 p-4 md:grid-cols-2 lg:grid-cols-3">
+<section class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
   {#each items as item}
     <div class="shadow-md outline outline-2 outline-gray-200">
       <img src={item.image} alt={item.category} width="720" height="400" />

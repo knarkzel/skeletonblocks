@@ -28,7 +28,7 @@
       <textarea class="textarea" rows="4" />
     </label>
 
-    <button class="btn variant-filled mx-auto block">Button</button>
+    <button class="btn variant-filled-primary mx-auto block">Button</button>
   </form>
 
   <hr class="my-8" />

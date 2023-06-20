@@ -18,4 +18,12 @@
       <NavItem name='Regular' path='/contact/regular' />
     </ul>
   </section>
+
+  <h3 class="h3">CONTENT</h3>
+
+  <section class="list-nav pb-2">
+    <ul>
+      <NavItem name='Regular' path='/content/regular' />
+    </ul>
+  </section>
 </nav>
