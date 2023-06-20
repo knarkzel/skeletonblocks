@@ -1,9 +1,13 @@
+<script lang="ts">
+  import { base } from "$app/paths";
+</script>
+
 <div>
   <h3 class="h3 pb-2">BLOG</h3>
 
   <nav class="list-nav">
     <ul>
-      <li><a href="/blog/simple">Simple</a></li>
+      <li><a href="{base}/blog/simple">Simple</a></li>
     </ul>
   </nav>
 
