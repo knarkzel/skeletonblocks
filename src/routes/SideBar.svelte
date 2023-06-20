@@ -1,21 +1,21 @@
 <script lang="ts">
-  import { base } from "$app/paths";
-  import IconXml from '~icons/mdi/xml';
+  import NavItem from "./NavItem.svelte";
 </script>
 
-<div>
-  <h3 class="h3 pb-2">BLOG</h3>
+<nav class="space-y-2">
+  <h3 class="h3">BLOG</h3>
 
-  <nav class="list-nav">
+  <section class="list-nav pb-2">
     <ul>
-      <li>
-        <div class="flex justify-between">
-          <a class="w-full" href="{base}/blog/simple">Simple</a>
-          <a href="https://github.com/knarkzel/skeletonblocks/blob/master/src/routes/blog/simple/+page.svelte" target="_blank">
-            <IconXml />
-          </a>
-        </div>
-      </li>
+      <NavItem name='Regular' path='/blog/regular' />
     </ul>
-  </nav>
-</div>
+  </section>
+
+  <h3 class="h3">CONTACT</h3>
+
+  <section class="list-nav pb-2">
+    <ul>
+      <NavItem name='Regular' path='/contact/regular' />
+    </ul>
+  </section>
+</nav>

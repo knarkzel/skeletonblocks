@@ -28,11 +28,11 @@ export default defineConfig({
   <title>SkeletonBlocks</title>
 </svelte:head>
 
-<div class="flex items-center justify-center h-screen">
+<div class="flex h-screen items-center justify-center">
   <div>
     <h1 class="h1 mb-6 text-center">SkeletonBlocks</h1>
     <p>Before getting started, make sure you have following dependencies:</p>
-    <ul class="list-disc ml-8 my-6">
+    <ul class="my-6 ml-8 list-disc">
       <li class="pl-1">Svelte / SvelteKit with TypeScript</li>
       <li class="pl-1"><a class="anchor" href="https://www.skeleton.dev/">SkeletonUI</a></li>
       <li class="pl-1">

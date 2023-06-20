@@ -10,10 +10,10 @@ const config = {
   kit: {
     adapter: adapter({
       strict: false,
-      fallback: 'index.html',
+      fallback: 'index.html'
     }),
     paths: {
-      base: dev ? '' : process.env.BASE_PATH,
+      base: dev ? '' : process.env.BASE_PATH
     }
   }
 };
