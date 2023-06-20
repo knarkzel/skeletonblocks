@@ -8,7 +8,7 @@
 
 <li>
   <div class="flex justify-between">
-    <a class="w-full" href="{base}{path}">{name}</a>
+    <a class="truncate" href="{base}{path}">{name}</a>
     <a
       href="https://github.com/knarkzel/skeletonblocks/blob/master/src/routes{path}/+page.svelte"
       target="_blank"
