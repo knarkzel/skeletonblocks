@@ -40,7 +40,7 @@ export default defineConfig({
       </li>
     </ul>
     <p>All of these can be installed from scratch like so:</p>
-    <CodeBlock class="mt-6" code={instructions} />
+    <CodeBlock class="mt-6" language="bash" code={instructions} />
     <p class="my-6">Then edit your <code class="code">vite.config.ts</code> like so:</p>
     <CodeBlock language="js" code={icons} />
   </div>

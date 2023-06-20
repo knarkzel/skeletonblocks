@@ -3,12 +3,6 @@
   import '@skeletonlabs/skeleton/styles/skeleton.css';
   import '../app.postcss';
 
-  // Highlighting
-  import hljs from 'highlight.js';
-  import 'highlight.js/styles/github-dark.css';
-  import { storeHighlightJs } from '@skeletonlabs/skeleton';
-  storeHighlightJs.set(hljs);
-
   import { AppShell } from '@skeletonlabs/skeleton';
   import SideBar from './SideBar.svelte';
 </script>
