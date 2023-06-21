@@ -36,4 +36,22 @@
       <NavItem name="With signup vertical" path="/cta/with-signup-vertical" />
     </ul>
   </section>
+
+  <h3 class="h3">HERO</h3>
+
+  <section class="list-nav pb-2">
+    <ul>
+      <NavItem name="Regular" path="/hero/regular" />
+    </ul>
+  </section>
+
+  <h3 class="h3">STATISTIC</h3>
+
+  <section class="list-nav pb-2">
+    <ul>
+      <NavItem name="Regular" path="/statistic/regular" />
+      <NavItem name="With image" path="/statistic/with-image" />
+      <NavItem name="With icons" path="/statistic/with-icons" />
+    </ul>
+  </section>
 </nav>
