@@ -1,29 +1,29 @@
 <script lang="ts">
-  import IconDownload from '~icons/mdi/download';
-  import IconAccounts from '~icons/mdi/account-multiple';
-  import IconFile from '~icons/mdi/file';
-  import IconMap from '~icons/mdi/map-marker';
-  
+  import IconDownload from "~icons/mdi/download";
+  import IconAccounts from "~icons/mdi/account-multiple";
+  import IconFile from "~icons/mdi/file";
+  import IconMap from "~icons/mdi/map-marker";
+
   const items = [
     {
       component: IconDownload,
-      amount: '2.7K',
-      label: 'Users'
+      amount: "2.7K",
+      label: "Users"
     },
     {
       component: IconAccounts,
-      amount: '1.8K',
-      label: 'Subscribers'
+      amount: "1.8K",
+      label: "Subscribers"
     },
     {
       component: IconFile,
-      amount: '35',
-      label: 'Downloads'
+      amount: "35",
+      label: "Downloads"
     },
     {
       component: IconMap,
-      amount: '4',
-      label: 'Places'
+      amount: "4",
+      label: "Places"
     }
   ];
 </script>
@@ -41,8 +41,8 @@
 
   <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4">
     {#each items as item}
-      <div class="flex flex-col items-center rounded-lg p-8 border border-1 border-gray-300">
-        <svelte:component class="text-3xl text-primary-700" this={item.component} />
+      <div class="border-1 flex flex-col items-center rounded-lg border border-gray-300 p-8">
+        <svelte:component this={item.component} class="text-3xl text-primary-700" />
         <h3 class="h3 mt-2">{item.amount}</h3>
         <p class="text-sm text-gray-600">{item.label}</p>
       </div>

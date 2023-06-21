@@ -1,8 +1,8 @@
 <script lang="ts">
-  import IconFacebook from '~icons/mdi/facebook';
-  import IconTwitter from '~icons/mdi/twitter';
-  import IconInstagram from '~icons/ri/instagram-fill';
-  import IconComment from '~icons/mdi/comment';
+  import IconFacebook from "~icons/mdi/facebook";
+  import IconTwitter from "~icons/mdi/twitter";
+  import IconInstagram from "~icons/ri/instagram-fill";
+  import IconComment from "~icons/mdi/comment";
 </script>
 
 <section class="mx-auto max-w-screen-sm">

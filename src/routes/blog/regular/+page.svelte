@@ -1,31 +1,31 @@
 <script lang="ts">
-  import IconEye from '~icons/mdi/eye-outline';
-  import IconComment from '~icons/mdi/comment-outline';
-  import IconArrowRight from '~icons/mdi/arrow-right';
+  import IconEye from "~icons/mdi/eye-outline";
+  import IconComment from "~icons/mdi/comment-outline";
+  import IconArrowRight from "~icons/mdi/arrow-right";
 
   const items = [
     {
-      title: 'The Catalyzer',
-      category: 'CATEGORY',
-      body: 'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-      image: 'https://dummyimage.com/720x400',
-      views: '1.2K',
+      title: "The Catalyzer",
+      category: "CATEGORY",
+      body: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      image: "https://dummyimage.com/720x400",
+      views: "1.2K",
       comments: 6
     },
     {
-      title: 'The 400 Blows',
-      category: 'CATEGORY',
-      body: 'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-      image: 'https://dummyimage.com/720x400',
-      views: '1.2K',
+      title: "The 400 Blows",
+      category: "CATEGORY",
+      body: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      image: "https://dummyimage.com/720x400",
+      views: "1.2K",
       comments: 6
     },
     {
-      title: 'Shooting Stars',
-      category: 'CATEGORY',
-      body: 'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-      image: 'https://dummyimage.com/720x400',
-      views: '1.2K',
+      title: "Shooting Stars",
+      category: "CATEGORY",
+      body: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      image: "https://dummyimage.com/720x400",
+      views: "1.2K",
       comments: 6
     }
   ];

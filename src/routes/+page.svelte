@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { CodeBlock } from '@skeletonlabs/skeleton';
+  import { CodeBlock } from "@skeletonlabs/skeleton";
 
   const instructions = `
 npm create skeleton-app@latest my-app

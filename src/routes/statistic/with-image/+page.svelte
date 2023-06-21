@@ -1,20 +1,20 @@
 <script lang="ts">
   const items = [
     {
-      amount: '2.7K',
-      label: 'Users'
+      amount: "2.7K",
+      label: "Users"
     },
     {
-      amount: '1.8K',
-      label: 'Subscribers'
+      amount: "1.8K",
+      label: "Subscribers"
     },
     {
-      amount: '35',
-      label: 'Downloads'
+      amount: "35",
+      label: "Downloads"
     },
     {
-      amount: '4',
-      label: 'Products'
+      amount: "4",
+      label: "Products"
     }
   ];
 </script>

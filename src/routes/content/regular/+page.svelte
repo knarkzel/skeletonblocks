@@ -1,22 +1,22 @@
 <script lang="ts">
-  import IconArrowRight from '~icons/mdi/arrow-right';
+  import IconArrowRight from "~icons/mdi/arrow-right";
 
   const items = [
     {
-      title: 'Shooting Stars',
-      body: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.'
+      title: "Shooting Stars",
+      body: "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
     },
     {
-      title: 'The Catalyzer',
-      body: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.'
+      title: "The Catalyzer",
+      body: "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
     },
     {
-      title: 'Neptune',
-      body: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.'
+      title: "Neptune",
+      body: "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
     },
     {
-      title: 'Melanchole',
-      body: 'Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.'
+      title: "Melanchole",
+      body: "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
     }
   ];
 </script>
