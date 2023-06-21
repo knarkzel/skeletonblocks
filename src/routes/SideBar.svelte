@@ -32,8 +32,8 @@
   <section class="list-nav pb-2">
     <ul>
       <NavItem name="Regular" path="/cta/regular" />
-      <NavItem name="With signup horizontal" path="/cta/with-signup-horizontal" />
-      <NavItem name="With signup vertical" path="/cta/with-signup-vertical" />
+      <NavItem name="Vertical" path="/cta/vertical" />
+      <NavItem name="Horizontal" path="/cta/horizontal" />
     </ul>
   </section>
 
@@ -50,18 +50,18 @@
   <section class="list-nav pb-2">
     <ul>
       <NavItem name="Regular" path="/statistic/regular" />
-      <NavItem name="With image" path="/statistic/with-image" />
-      <NavItem name="With icons" path="/statistic/with-icons" />
+      <NavItem name="Image" path="/statistic/image" />
+      <NavItem name="Icons" path="/statistic/icons" />
     </ul>
   </section>
 
-  <h3 class="h3">TESTIMONIALS</h3>
+  <h3 class="h3">TESTIMONIAL</h3>
 
   <section class="list-nav pb-2">
     <ul>
-      <NavItem name="Regular" path="/testimonials/regular" />
-      <NavItem name="Vertical" path="/testimonials/vertical" />
-      <NavItem name="Horizontal" path="/testimonials/horizontal" />
+      <NavItem name="Regular" path="/testimonial/regular" />
+      <NavItem name="Vertical" path="/testimonial/vertical" />
+      <NavItem name="Horizontal" path="/testimonial/horizontal" />
     </ul>
   </section>
 </nav>
