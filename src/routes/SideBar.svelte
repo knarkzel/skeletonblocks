@@ -44,6 +44,9 @@
       <NavItem name="Regular" path="/hero/regular" />
       <NavItem name="Flipped" path="/hero/flipped" />
       <NavItem name="Vertical" path="/hero/vertical" />
+      <NavItem name="Icons" path="/hero/icons" />
+      <NavItem name="Icons flipped" path="/hero/icons-flipped" />
+      <NavItem name="Icons vertical" path="/hero/icons-vertical" />
     </ul>
   </section>
 

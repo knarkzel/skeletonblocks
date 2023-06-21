@@ -9,7 +9,7 @@
     </p>
 
     <div class="mt-4 flex gap-4">
-      <button class="btn variant-filled">Button</button>
+      <button class="btn variant-filled-primary">Button</button>
       <button class="btn variant-ghost">Button</button>
     </div>
   </div>
