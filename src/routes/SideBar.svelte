@@ -42,6 +42,8 @@
   <section class="list-nav pb-2">
     <ul>
       <NavItem name="Regular" path="/hero/regular" />
+      <NavItem name="Flipped" path="/hero/flipped" />
+      <NavItem name="Vertical" path="/hero/vertical" />
     </ul>
   </section>
 

@@ -16,12 +16,12 @@
   ];
 </script>
 
-<section>
+<section class="max-w-screen-xl mx-auto">
   <h3 class="h3 text-center">Testimonials</h3>
   <div class="mt-8 grid grid-cols-2 gap-8">
     {#each items as item}
-      <div class="rounded bg-gray-300 p-4">
-        <IconQuote class="text-2xl text-gray-500" />
+      <div class="rounded bg-gray-200 p-4">
+        <IconQuote class="text-2xl text-gray-400" />
         <p class="mt-1 pl-1 text-sm leading-relaxed text-gray-700">
           {item.body}
         </p>

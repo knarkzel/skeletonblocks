@@ -7,7 +7,7 @@
   import SideBar from "./SideBar.svelte";
 </script>
 
-<AppShell slotSidebarLeft="bg-surface-500/5 w-56 p-4 shadow-lg">
+<AppShell slotSidebarLeft="w-64 p-4 shadow-lg">
   <svelte:fragment slot="sidebarLeft">
     <SideBar />
   </svelte:fragment>
