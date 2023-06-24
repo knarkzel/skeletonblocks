@@ -2,7 +2,7 @@
   import NavItem from "./NavItem.svelte";
 </script>
 
-<nav class="space-y-2">
+<nav class="space-y-2 w-64 p-4">
   <h3 class="h3">BLOG</h3>
 
   <section class="list-nav pb-2">

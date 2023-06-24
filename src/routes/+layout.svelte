@@ -2,22 +2,35 @@
   import "@skeletonlabs/skeleton/themes/theme-hamlindigo.css";
   import "@skeletonlabs/skeleton/styles/skeleton.css";
   import "../app.postcss";
+
   import { base } from "$app/paths";
-  
-  import { AppShell } from "@skeletonlabs/skeleton";
+  import { Drawer, drawerStore, AppShell } from "@skeletonlabs/skeleton";
   import SideBar from "./SideBar.svelte";
+  import IconMenu from "~icons/mdi/menu";
 </script>
 
-<div class="p-4 shadow-md">
+<Drawer>
+  <SideBar />
+</Drawer>
+
+<div class="flex items-center justify-between p-4 shadow-md">
+  <button on:click={() => drawerStore.open({
+      width: "w-min",
+    })}>
+    <IconMenu class="text-2xl lg:hidden" />
+  </button>
+
   <p class="text-center">
     Created by <a href="https://www.youtube.com/@svelterust" target="_blank">
       <span class="anchor">@svelterust</span>
-      <img class="h-8 inline ml-1" alt="SvelteRust" src="{base}/logo.png" width="32" height="32"/>
+      <img class="ml-1 inline h-8" alt="SvelteRust" src="{base}/logo.png" width="32" height="32" />
     </a>
   </p>
+
+  <span />
 </div>
 
-<AppShell slotSidebarLeft="w-64 p-4">
+<AppShell slotSidebarLeft="hidden lg:flex">
   <svelte:fragment slot="sidebarLeft">
     <SideBar />
   </svelte:fragment>
