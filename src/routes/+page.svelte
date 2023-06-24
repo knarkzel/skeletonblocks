@@ -28,21 +28,30 @@ export default defineConfig({
   <div>
     <h1 class="h1 mb-6 text-center">SkeletonBlocks</h1>
     <p>
-      SkeletonBlocks is a free collection of  combines the simplicity
-      and versatility of the Skeleton CSS framework with the powerful block-based
-      design approach of Tailblocks. 
-      Before getting started, make sure you have following dependencies:
+      SkeletonBlocks is a comprehensive collection of ready-to-use Tailwind
+      CSS blocks that seamlessly integrate SkeletonUI and TailwindCSS, offering
+      a convenient solution for developers seeking pre-built CSS blocks.
+      This versatile package leverages the power of Svelte, Tailwind, and
+      the lightweight SkeletonUI framework to provide a vast assortment of
+      easily customizable blocks for web development projects.
+    </p>
+    <p class="mt-4">
+      Before getting started, make sure you have installed following:
     </p>
     <ul class="my-6 ml-8 list-disc">
-      <li class="pl-1">Svelte / SvelteKit with TypeScript</li>
-      <li class="pl-1"><a class="anchor" href="https://www.skeleton.dev/">SkeletonUI</a></li>
+      <li class="pl-1">
+        <a class="anchor" href="https://svelte.dev/">Svelte</a>
+      </li>
+      <li class="pl-1">
+        <a class="anchor" href="https://www.skeleton.dev/">SkeletonUI</a>
+      </li>
       <li class="pl-1">
         <a class="anchor" href="https://github.com/antfu/unplugin-icons">unplugin-icons</a>
       </li>
     </ul>
     <p>All of these can be installed from scratch like so:</p>
     <CodeBlock class="mt-6" language="bash" code={instructions} />
-    <p class="my-6">Then edit your <code class="code">vite.config.ts</code>
+    <p class="my-6">Then edit your <code class="code">vite.config.js</code>
 like so:</p>
     <CodeBlock language="js" code={icons} />
   </div>
