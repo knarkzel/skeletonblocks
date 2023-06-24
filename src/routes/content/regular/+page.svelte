@@ -23,9 +23,9 @@
 
 <section>
   <div class="mx-auto max-w-screen-sm text-center">
-    <small class="text-primary-900">ROOF PARTY POLAROID</small>
+    <small class="text-primary-700 dark:text-primary-500">ROOF PARTY POLAROID</small>
     <h3 class="h3">Master Cleanse Reliac Heirloom</h3>
-    <p class="mt-4 text-sm leading-relaxed text-gray-600">
+    <p class="mt-4 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
       Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke
       farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies
       heirloom prism food truck ugh squid celiac humblebrag.
@@ -36,7 +36,7 @@
     {#each items as item}
       <div class="border-l-2 border-gray-300 pl-4">
         <p>{item.title}</p>
-        <p class="my-2 text-gray-600">{item.body}</p>
+        <p class="my-2 text-gray-600 dark:text-gray-400">{item.body}</p>
         <a class="anchor no-underline" href="#">
           Learn More <IconArrowRight class="inline" />
         </a>

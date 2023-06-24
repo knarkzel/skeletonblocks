@@ -3,7 +3,7 @@
 
   <h2 class="h2">Microdosing synth tattooed vexillologist</h2>
 
-  <p class="text-gray-600 leading-relaxed max-w-2xl">
+  <p class="text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
     Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
     tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
     ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over

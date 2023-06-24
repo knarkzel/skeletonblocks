@@ -1,7 +1,7 @@
 <section class="mx-auto max-w-screen-sm">
   <div class="text-center">
     <h3 class="h3">Master Cleanse Reliac Heirloom</h3>
-    <p class="my-4 leading-relaxed text-gray-500">
+    <p class="my-4 leading-relaxed text-gray-500 dark:text-gray-400">
       Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke
       farm-to-table. Franzen you probably haven't heard of them man bun deep.
     </p>

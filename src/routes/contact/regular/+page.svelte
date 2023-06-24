@@ -7,7 +7,7 @@
 
 <section class="mx-auto max-w-screen-sm">
   <h3 class="h3 mb-2 text-center">Contact Us</h3>
-  <p class="leading-relaxed text-gray-700">
+  <p class="leading-relaxed text-gray-700 dark:text-gray-300">
     Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.
   </p>
   <form class="mt-4 space-y-2">
@@ -36,12 +36,12 @@
   <div class="grid gap-4 text-center">
     <a class="anchor no-underline" href="#">example@email.com</a>
 
-    <div class="text-gray-700">
+    <div class="text-gray-700 dark:text-gray-300">
       <p>49 Smith St.</p>
       <p>Saint Cloud, MN 56301</p>
     </div>
 
-    <div class="flex justify-center gap-3 text-gray-700">
+    <div class="flex justify-center gap-3 text-gray-700 dark:text-gray-300">
       <IconFacebook />
       <IconTwitter />
       <IconInstagram />

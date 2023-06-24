@@ -36,15 +36,15 @@
     <div class="shadow-lg">
       <img src={item.image} alt={item.title} width="720" height="400" />
       <div class="p-4">
-        <small class="text-xs text-gray-400">{item.category}</small>
+        <small class="text-xs text-gray-500 dark:text-gray-400">{item.category}</small>
         <p>{item.title}</p>
-        <p class="my-2 text-sm leading-relaxed text-gray-600">{item.body}</p>
+        <p class="my-2 text-sm leading-relaxed text-gray-600 dark:text-gray-300">{item.body}</p>
         <div class="flex justify-between">
           <a class="anchor no-underline" href="#">
             Learn More <IconArrowRight class="inline" />
           </a>
           <div>
-            <small class="text-gray-500">
+            <small class="text-gray-500 dark:text-gray-400">
               <IconEye class="inline" />
               {item.views}
               <IconComment class="ml-2 mr-1 inline" />{item.comments}
