@@ -5,8 +5,16 @@
 
   import { base } from "$app/paths";
   import { Drawer, drawerStore, AppShell } from "@skeletonlabs/skeleton";
+  import { LightSwitch } from '@skeletonlabs/skeleton';
   import SideBar from "./SideBar.svelte";
   import IconMenu from "~icons/mdi/menu";
+
+
+  function openDrawer() {
+    drawerStore.open({
+      width: "w-min",
+    });
+  }
 </script>
 
 <Drawer>
@@ -14,9 +22,7 @@
 </Drawer>
 
 <div class="flex items-center justify-between p-4 shadow-md">
-  <button on:click={() => drawerStore.open({
-      width: "w-min",
-    })}>
+  <button on:click={openDrawer} tabindex="-1">
     <IconMenu class="text-2xl lg:hidden" />
   </button>
 
@@ -27,7 +33,7 @@
     </a>
   </p>
 
-  <span />
+  <LightSwitch />
 </div>
 
 <AppShell slotSidebarLeft="hidden lg:block">

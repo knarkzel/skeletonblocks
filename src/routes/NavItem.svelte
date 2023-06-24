@@ -14,7 +14,7 @@
       on:click={() => drawerStore.close()}
       class="w-full truncate"
       href="{base}{path}"
-      class:bg-surface-300={$page.url.pathname == `${base}${path}`}
+      class:variant-ghost-surface={$page.url.pathname == `${base}${path}`}
     >
       {name}
     </a>
