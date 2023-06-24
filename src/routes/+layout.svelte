@@ -30,7 +30,7 @@
   <span />
 </div>
 
-<AppShell slotSidebarLeft="hidden lg:flex">
+<AppShell slotSidebarLeft="hidden lg:block">
   <svelte:fragment slot="sidebarLeft">
     <SideBar />
   </svelte:fragment>
