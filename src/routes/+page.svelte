@@ -24,7 +24,7 @@ export default defineConfig({
   `;
 </script>
 
-<div class="mt-8 max-w-screen-md mx-auto">
+<div class="mt-8 max-w-screen-md mx-auto pb-24">
   <div>
     <h1 class="h1 mb-6 text-center">SkeletonBlocks</h1>
     <p>

@@ -28,7 +28,7 @@
 
   <p class="text-center">
     Created by <a href="https://www.youtube.com/@svelterust" target="_blank">
-      <span class="anchor">@svelterust</span>
+      <span class="anchor hidden sm:inline">@svelterust</span>
       <img class="ml-1 inline h-8" alt="SvelteRust" src="{base}/logo.png" width="32" height="32" />
     </a>
   </p>
