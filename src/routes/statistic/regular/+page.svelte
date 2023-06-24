@@ -23,7 +23,7 @@
   {#each items as item}
     <div class="text-center">
       <h3 class="h3">{item.amount}</h3>
-      <p class="text-sm text-gray-600">{item.label}</p>
+      <p class="text-sm text-gray-600 dark:text-gray-400">{item.label}</p>
     </div>
   {/each}
 </section>

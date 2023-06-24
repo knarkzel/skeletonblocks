@@ -24,11 +24,11 @@
   {#each items as item}
     <div class="flex flex-col items-center gap-4">
       <Avatar />
-      <p class="text-sm leading-relaxed text-gray-600 max-w-md">{item.body}</p>
+      <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-md">{item.body}</p>
       <span class="mb-4 mt-6 inline-block h-1 w-10 rounded bg-primary-700" />
       <div class="text-center">
         <p class="text-xs">{item.author}</p>
-        <small class="text-gray-600">{item.category}</small>
+        <small class="text-gray-600 dark:text-gray-500">{item.category}</small>
       </div>
     </div>
   {/each}

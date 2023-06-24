@@ -22,7 +22,7 @@
 </Drawer>
 
 <div class="flex items-center justify-between p-4 shadow-md">
-  <button on:click={openDrawer} tabindex="-1">
+  <button on:click={openDrawer} aria-label="Menu">
     <IconMenu class="text-2xl lg:hidden" />
   </button>
 

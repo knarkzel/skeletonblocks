@@ -27,7 +27,7 @@
       <div
         class="flex items-center gap-2 rounded-lg bg-gray-300 px-4 py-2 text-gray-700 dark:bg-gray-700 dark:text-gray-300"
       >
-        <IconApple class="text-2xl" />
+        <IconPlaystore class="text-2xl" />
         <div class="leading-5">
           <small class="text-xs text-gray-600 dark:text-gray-400">GET IT ON</small>
           <p>Google Play</p>

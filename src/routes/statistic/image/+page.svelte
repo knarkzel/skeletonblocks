@@ -23,7 +23,7 @@
   <div>
     <h3 class="h4">Moon hashtag pop-up try-hard offal truffaut</h3>
 
-    <p class="mt-2 text-sm text-gray-600">
+    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
       Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable
       fingerstache kickstarter.
     </p>
@@ -32,7 +32,7 @@
       {#each items as item}
         <div>
           <h3 class="h3">{item.amount}</h3>
-          <p class="text-sm text-gray-600">{item.label}</p>
+          <p class="text-sm text-gray-600 dark:text-gray-400">{item.label}</p>
         </div>
       {/each}
     </div>
