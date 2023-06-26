@@ -39,13 +39,13 @@ export default defineConfig({
       Before getting started, make sure you have installed following:
     </p>
     <ul class="my-6 ml-8 list-disc">
-      <li class="pl-1">
+      <li class="px-2 py-1">
         <a class="anchor" href="https://svelte.dev/">Svelte</a>
       </li>
-      <li class="pl-1">
+      <li class="px-2 py-1">
         <a class="anchor" href="https://www.skeleton.dev/">SkeletonUI</a>
       </li>
-      <li class="pl-1">
+      <li class="px-2 py-1">
         <a class="anchor" href="https://github.com/antfu/unplugin-icons">unplugin-icons</a>
       </li>
     </ul>

@@ -27,11 +27,11 @@
   </button>
 
   <div class="flex items-center gap-4">
-    <a href="https://www.youtube.com/@svelterust" target="_blank">
+    <a href="https://www.youtube.com/@svelterust" aria-label="SvelteRust" target="_blank">
       <img class="inline h-8" alt="SvelteRust" src="{base}/logo.png" width="32" height="32" />
     </a>
     
-    <a href="https://github.com/knarkzel/skeletonblocks">
+    <a href="https://github.com/knarkzel/skeletonblocks" aria-label="GitHub" target="_blank">
       <IconGitHub class="inline text-2xl" />
     </a>
     
