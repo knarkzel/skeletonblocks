@@ -21,8 +21,6 @@ jobs:
         run: npm install
 
       - name: build
-        env:
-          BASE_PATH: "/skeletonblocks"
         run: |
           npm run build
           touch build/.nojekyll
