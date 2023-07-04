@@ -38,6 +38,14 @@
     </ul>
   </section>
 
+  <h3 class="h3">ECOMMERCE</h3>
+
+  <section class="list-nav pb-2">
+    <ul>
+      <NavItem name="Regular" path="/ecommerce/regular" />
+    </ul>
+  </section>
+  
   <h3 class="h3">HERO</h3>
 
   <section class="list-nav pb-2">

@@ -31,7 +31,7 @@
     <div class="space-y-4">
       <span class="badge variant-filled-primary">{item.category}</span>
       <h3 class="h3">{item.title}</h3>
-      <p class="text-sm text-gray-700">{item.body}</p>
+      <p class="text-sm text-gray-700 dark:text-gray-400">{item.body}</p>
       <div class="flex justify-between">
         <a class="anchor no-underline" href="#">
           Learn More <IconArrowRight class="inline" />
@@ -46,11 +46,11 @@
         </div>
       </div>
 
-      <div class="flex items-center gap-4 pt-4 border-t border-gray-300">
+      <div class="flex items-center gap-4 pt-4 border-t border-gray-300 dark:border-gray-600">
         <Avatar initials="JD" fill="text-white" background="bg-primary-400" width="w-12" />
         <div>
           <p>{item.author}</p>
-          <small class="text-gray-700">{item.role}</small>
+          <small class="text-gray-700 dark:text-gray-400">{item.role}</small>
         </div>
       </div>
     </div>
