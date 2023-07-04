@@ -1,7 +1,8 @@
 <script lang="ts">
   import IconArrowRight from "~icons/mdi/arrow-right";
   import IconCheck from "~icons/mdi/check-circle";
-
+  import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
+  
   const items = [
     {
       price: 0,
@@ -45,21 +46,25 @@
       hint: "Literally you probably haven't heard of them jean shorts."
     }
   ];
+
+  let value: "monthly" | "annually" = "monthly";
 </script>
 
 <section>
   <div class="flex flex-col items-center gap-2">
     <h2 class="h2">Pricing</h2>
+    
     <p class="text-gray-700 dark:text-gray-400">
       Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
     </p>
-    <div class="variant-ghost-primary btn-group mt-4">
-      <button>Monthly</button>
-      <button>Annually</button>
-    </div>
+
+    <RadioGroup active="variant-filled-primary" hover="hover:variant-soft-primary">
+      <RadioItem name="justify" bind:group={value} value="monthly">Monthly</RadioItem>
+      <RadioItem name="justify" bind:group={value} value="annually">Annually</RadioItem>
+    </RadioGroup>
   </div>
 
-  <div class="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+  <div class="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 max-w-screen-xl mx-auto">
     {#each items as item}
       <div class="flex flex-col justify-between rounded border border-gray-400 dark:border-gray-500 p-4">
         <div>
