@@ -16,8 +16,6 @@
     "noFallthroughCasesInSwitch": true,
     "strictFunctionTypes": true,
     "noUncheckedIndexedAccess": true,
-    "types": [
-      "unplugin-icons/types/svelte",
-    ],
+    "types": ["unplugin-icons/types/svelte"]
   }
 }

@@ -7,7 +7,7 @@
     </p>
   </div>
 
-  <div class="w-full rounded bg-surface-200 dark:bg-surface-800 p-8 lg:w-auto">
+  <div class="w-full rounded bg-surface-200 p-8 dark:bg-surface-800 lg:w-auto">
     <p>Sign up</p>
 
     <form class="mt-4 space-y-4 lg:w-96">

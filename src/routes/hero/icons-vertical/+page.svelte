@@ -23,7 +23,8 @@
     <button class="btn variant-filled-primary mt-auto h-min">Button</button>
   </form>
 
-  <small class="mt-2 text-gray-600 dark:text-gray-400">Neutra shabby chic ramps, viral fixie.</small>
+  <small class="mt-2 text-gray-600 dark:text-gray-400">Neutra shabby chic ramps, viral fixie.</small
+  >
 
   <div class="mt-6 flex gap-4">
     <div

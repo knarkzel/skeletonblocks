@@ -41,8 +41,13 @@
 
   <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4">
     {#each items as item}
-      <div class="border-1 flex flex-col items-center rounded-lg border border-gray-300 dark:border-gray-600 p-8">
-        <svelte:component this={item.component} class="text-3xl text-primary-600 dark:text-primary-500" />
+      <div
+        class="border-1 flex flex-col items-center rounded-lg border border-gray-300 p-8 dark:border-gray-600"
+      >
+        <svelte:component
+          this={item.component}
+          class="text-3xl text-primary-600 dark:text-primary-500"
+        />
         <h3 class="h3 mt-2">{item.amount}</h3>
         <p class="text-sm text-gray-600 dark:text-gray-400">{item.label}</p>
       </div>

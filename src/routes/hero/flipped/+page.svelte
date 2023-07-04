@@ -1,6 +1,6 @@
-<section class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-screen-xl mx-auto">
+<section class="mx-auto grid max-w-screen-xl gap-8 md:grid-cols-2 lg:grid-cols-3">
   <img alt="Product" src="https://dummyimage.com/720x600" />
-  
+
   <div class="flex flex-col items-center md:items-start lg:col-span-2">
     <h2 class="h2">Before they sold out readymade gluten</h2>
 

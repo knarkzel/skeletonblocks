@@ -2,12 +2,13 @@
   import NavItem from "./NavItem.svelte";
 </script>
 
-<nav class="space-y-2 w-64 p-4 pb-24">
+<nav class="w-64 space-y-2 p-4 pb-24">
   <h3 class="h3">BLOG</h3>
 
   <section class="list-nav pb-2">
     <ul>
       <NavItem name="Regular" path="/blog/regular" />
+      <NavItem name="Detailed" path="/blog/detailed" />
     </ul>
   </section>
 
