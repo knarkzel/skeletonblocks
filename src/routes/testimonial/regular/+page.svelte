@@ -29,7 +29,7 @@
           <Avatar />
           <div class="flex flex-col">
             <p>{item.author}</p>
-            <small class="text-gray-600 dark:text-gray-500">{item.category}</small>
+            <small class="text-gray-600 dark:text-gray-400">{item.category}</small>
           </div>
         </div>
       </div>

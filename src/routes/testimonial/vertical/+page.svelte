@@ -12,9 +12,9 @@
     gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level
     shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.
   </p>
-  <span class="mb-6 mt-8 inline-block h-1 w-10 rounded bg-primary-700" />
+  <span class="mb-6 mt-8 inline-block h-1 w-10 rounded bg-primary-700 dark:bg-primary-400" />
   <div>
     <p class="text-center text-xs">HOLDEN CAULFIELD</p>
-    <small class="text-gray-600 dark:text-gray-500">Senior Product Designer</small>
+    <small class="text-gray-600 dark:text-gray-400">Senior Product Designer</small>
   </div>
 </section>

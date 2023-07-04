@@ -46,5 +46,5 @@
     </div>
   </div>
 
-  <img alt="Product" src="https://dummyimage.com/720x600" />
+  <img alt="Product" src="https://dummyimage.com/720x600" width="720" height="600" />
 </section>

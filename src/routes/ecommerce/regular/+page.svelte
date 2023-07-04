@@ -54,7 +54,7 @@
 <section class="grid w-full gap-4 md:grid-cols-2 lg:grid-cols-4">
   {#each items as item}
     <div>
-      <img class="w-full" alt={item.title} src={item.image} />
+      <img class="w-full" alt={item.title} src={item.image} width="800" height="600" />
       <p class="mt-3 text-xs text-gray-700 dark:text-gray-400">{item.category}</p>
       <p class="mt-1">{item.title}</p>
       <p class="mt-1 text-sm text-gray-800 dark:text-gray-300">{item.price}</p>

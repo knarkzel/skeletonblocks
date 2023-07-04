@@ -34,7 +34,7 @@
   <hr class="my-8" />
 
   <div class="grid gap-4 text-center">
-    <a class="anchor no-underline" href="#">example@email.com</a>
+    <a class="anchor no-underline dark:text-primary-400" href="#">example@email.com</a>
 
     <div class="text-gray-700 dark:text-gray-300">
       <p>49 Smith St.</p>

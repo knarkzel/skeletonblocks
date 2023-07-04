@@ -26,14 +26,14 @@
   ];
 </script>
 
-<section class="grid gap-x-8 gap-y-16 md:grid-cols-2">
+<section class="grid gap-x-8 gap-y-16 md:grid-cols-2 max-w-screen-xl mx-auto">
   {#each items as item}
     <div class="space-y-4">
       <span class="badge variant-filled-primary">{item.category}</span>
       <h3 class="h3">{item.title}</h3>
       <p class="text-sm text-gray-700 dark:text-gray-400">{item.body}</p>
       <div class="flex justify-between">
-        <a class="anchor no-underline" href="#">
+        <a class="anchor no-underline dark:text-primary-400" href="#">
           Learn More <IconArrowRight class="inline" />
         </a>
         

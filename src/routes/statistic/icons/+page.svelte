@@ -46,7 +46,7 @@
       >
         <svelte:component
           this={item.component}
-          class="text-3xl text-primary-600 dark:text-primary-500"
+          class="text-3xl text-primary-600 dark:text-primary-400"
         />
         <h3 class="h3 mt-2">{item.amount}</h3>
         <p class="text-sm text-gray-600 dark:text-gray-400">{item.label}</p>

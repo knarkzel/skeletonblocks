@@ -38,5 +38,5 @@
     </div>
   </div>
 
-  <img alt="Statistic" src="https://dummyimage.com/600x300" />
+  <img alt="Statistic" src="https://dummyimage.com/600x300" width="600" height="300" />
 </section>

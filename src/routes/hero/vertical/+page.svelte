@@ -1,5 +1,5 @@
 <section class="mx-auto flex max-w-screen-md flex-col items-center gap-4">
-  <img alt="Product" src="https://dummyimage.com/360x300" />
+  <img alt="Product" src="https://dummyimage.com/360x300" width="360" height="300" />
 
   <h2 class="h2">Microdosing synth tattooed vexillologist</h2>
 

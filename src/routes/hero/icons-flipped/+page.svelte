@@ -4,7 +4,7 @@
 </script>
 
 <section class="mx-auto grid max-w-screen-xl items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
-  <img alt="Product" src="https://dummyimage.com/720x600" />
+  <img alt="Product" src="https://dummyimage.com/720x600" width="720" height="600" />
 
   <div class="flex flex-col items-center md:items-start lg:col-span-2">
     <h2 class="h2">Knausgaard typewriter readymade marfa</h2>

@@ -25,10 +25,10 @@
     <div class="flex flex-col items-center gap-4">
       <Avatar />
       <p class="max-w-md text-sm leading-relaxed text-gray-600 dark:text-gray-400">{item.body}</p>
-      <span class="mb-4 mt-6 inline-block h-1 w-10 rounded bg-primary-700" />
+      <span class="mb-4 mt-6 inline-block h-1 w-10 rounded bg-primary-700 dark:bg-primary-400" />
       <div class="text-center">
         <p class="text-xs">{item.author}</p>
-        <small class="text-gray-600 dark:text-gray-500">{item.category}</small>
+        <small class="text-gray-600 dark:text-gray-400">{item.category}</small>
       </div>
     </div>
   {/each}

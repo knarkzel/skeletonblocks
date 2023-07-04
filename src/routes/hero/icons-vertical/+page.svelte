@@ -4,7 +4,7 @@
 </script>
 
 <section class="mx-auto flex max-w-2xl flex-col items-center">
-  <img alt="Product" src="https://dummyimage.com/360x300" />
+  <img alt="Product" src="https://dummyimage.com/360x300" width="360" height="300" />
 
   <h3 class="h3 mt-4">Knausgaard typewriter readymade marfa</h3>
 

@@ -40,7 +40,7 @@
         <p>{item.title}</p>
         <p class="my-2 text-sm leading-relaxed text-gray-600 dark:text-gray-300">{item.body}</p>
         <div class="flex justify-between">
-          <a class="anchor no-underline" href="#">
+          <a class="anchor no-underline dark:text-primary-400" href="#">
             Learn More <IconArrowRight class="inline" />
           </a>
           <div>
