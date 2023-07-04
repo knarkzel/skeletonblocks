@@ -29,17 +29,17 @@
 </script>
 
 <section class="mx-auto max-w-screen-xl">
-  <div class="mx-auto max-w-screen-sm">
+  <div class="mx-auto max-w-screen-md">
     <h3 class="h3 text-center">Moon hashtag pop-up try-hard offal truffaut</h3>
 
-    <p class="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
+    <p class="mt-4 text-center text-sm text-gray-600 dark:text-gray-400">
       Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke
       farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies
       heirloom prism food truck ugh squid celiac humblebrag.
     </p>
   </div>
 
-  <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4">
+  <div class="mt-12 grid grid-cols-2 gap-8 md:grid-cols-4">
     {#each items as item}
       <div
         class="border-1 flex flex-col items-center rounded-lg border border-gray-300 p-8 dark:border-gray-600"

@@ -19,7 +19,7 @@
   ];
 </script>
 
-<section class="grid grid-cols-2 gap-y-8 md:grid-cols-4">
+<section class="grid grid-cols-2 gap-y-8 md:grid-cols-4 max-w-screen-lg mx-auto">
   {#each items as item}
     <div class="text-center">
       <h3 class="h3">{item.amount}</h3>

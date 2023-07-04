@@ -59,6 +59,14 @@
     </ul>
   </section>
 
+  <h3 class="h3">PRICING</h3>
+
+  <section class="list-nav pb-2">
+    <ul>
+      <NavItem name="Regular" path="/pricing/regular" />
+    </ul>
+  </section>
+
   <h3 class="h3">STATISTIC</h3>
 
   <section class="list-nav pb-2">
