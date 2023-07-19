@@ -64,6 +64,7 @@
   <section class="list-nav pb-2">
     <ul>
       <NavItem name="Regular" path="/pricing/regular" />
+      <NavItem name="Alternative" path="/pricing/alternative" />
     </ul>
   </section>
 
